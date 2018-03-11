@@ -25,6 +25,10 @@ class LoginViewController: UIViewController {
 //        logoImageView = UIImageView(image: image)
 //
         
+        
+        let path = Bundle.main.resourcePath! + "/Images/Ice_Block_icon.png" ;
+        logoImageView.image = UIImage(named: path)
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ice_Block_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="4av-OS-WKl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4av-OS-WKl">
                                 <rect key="frame" x="67" y="137" width="241" height="193"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeD-7k-5sw">
@@ -141,7 +141,7 @@
                                 <rect key="frame" x="16" y="55" width="343" height="592"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="CdQ-6W-g4x" kind="embed" id="v0w-UV-hsI"/>
+                                    <segue destination="CdQ-6W-g4x" kind="embed" identifier="inventory" id="v0w-UV-hsI"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="acd-kD-7rC">
@@ -173,7 +173,7 @@
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g8w-H9-0Oi">
-                                <rect key="frame" x="16" y="55" width="343" height="256"/>
+                                <rect key="frame" x="16" y="55" width="343" height="592"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="7P1-45-UZA" kind="embed" id="avB-vN-nc0"/>
@@ -282,7 +282,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4om-tl-qvt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1608.8" y="-542.42878560719646"/>
+            <point key="canvasLocation" x="942" y="-750"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6v5-Zw-RVZ">
@@ -315,7 +315,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8kv-QG-wpn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Cne-4P-txG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2362" y="-542"/>
+            <point key="canvasLocation" x="1721" y="-777"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="47c-pZ-krO">
@@ -339,7 +339,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DWP-Na-6aY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="812" y="-541"/>
+            <point key="canvasLocation" x="1721" y="-140"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GIp-tC-1eK">
@@ -425,7 +425,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uXb-B3-RPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1609" y="189"/>
+            <point key="canvasLocation" x="2575" y="313"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vz0-II-e39">
@@ -480,7 +480,7 @@
             <objects>
                 <viewController id="7P1-45-UZA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NUD-OV-Z3p">
-                        <rect key="frame" x="0.0" y="0.0" width="343" height="256"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="592"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upf-hn-GSW">
@@ -501,10 +501,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ST-pD-eIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="786" y="742"/>
+            <point key="canvasLocation" x="753" y="892"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Ice_Block_icon.png" width="1576" height="1659"/>
-    </resources>
 </document>

@@ -13,7 +13,6 @@
 		1A1E4E3C204A09210024B5D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E4E3B204A09210024B5D3 /* Item.swift */; };
 		1A1E4E3E204B38800024B5D3 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E4E3D204B38800024B5D3 /* ItemTableViewCell.swift */; };
 		1A5E02E2204B5C1D007F2824 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E02E1204B5C1D007F2824 /* LoginViewController.swift */; };
-		1A5E02E4204B654E007F2824 /* Ice_Block_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E02E3204B654E007F2824 /* Ice_Block_icon.png */; };
 		1A605B8B204B723300B8552B /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 1A605B8A204B723300B8552B /* Images */; };
 		1A605B8D204B75E600B8552B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A605B8C204B75E600B8552B /* DetailViewController.swift */; };
 		1A845EFF2045321800355D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A845EFE2045321800355D49 /* AppDelegate.swift */; };
@@ -53,7 +52,6 @@
 		1A1E4E3B204A09210024B5D3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1A1E4E3D204B38800024B5D3 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		1A5E02E1204B5C1D007F2824 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		1A5E02E3204B654E007F2824 /* Ice_Block_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ice_Block_icon.png; sourceTree = "<group>"; };
 		1A605B8A204B723300B8552B /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		1A605B8C204B75E600B8552B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1A845EFB2045321800355D49 /* Ice Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,7 +148,6 @@
 				1A845EFE2045321800355D49 /* AppDelegate.swift */,
 				1A5E02DF204B5B8B007F2824 /* Controllers */,
 				1A845F022045321800355D49 /* Main.storyboard */,
-				1A5E02E3204B654E007F2824 /* Ice_Block_icon.png */,
 				1A605B8A204B723300B8552B /* Images */,
 				1A845F052045321800355D49 /* Assets.xcassets */,
 				1A845F072045321800355D49 /* LaunchScreen.storyboard */,
@@ -322,7 +319,6 @@
 				1A845F092045321800355D49 /* LaunchScreen.storyboard in Resources */,
 				1A1E4E362049218A0024B5D3 /* GoogleService-Info.plist in Resources */,
 				1A845F062045321800355D49 /* Assets.xcassets in Resources */,
-				1A5E02E4204B654E007F2824 /* Ice_Block_icon.png in Resources */,
 				1A605B8B204B723300B8552B /* Images in Resources */,
 				1A845F042045321800355D49 /* Main.storyboard in Resources */,
 			);
