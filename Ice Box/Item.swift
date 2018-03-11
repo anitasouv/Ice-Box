@@ -43,21 +43,12 @@ enum Location: Int {
     case counter = 3;
 }
 
-
-
-enum Units: Int {
-    case none = 0;
-    case cartons = 1;
-    case dozens = 2;
-    case bushels = 3;
-    case gallons = 4;
-    case count = 5;
-    case pounds = 6;
-    
-    
+enum Units: String {
+    case none = "";
+    case cartons = "carton(s)";
+    case dozens = "dozen(s)";
+    case bushels = "bushel(s)";
+    case gallons = "gallon(s)";
+    case count = "count";
+    case pounds = "pound(s)";
 }
-
-//let none = TestEnum(rawValue: "Name")!       //Name
-//let gender = TestEnum(rawValue: "Gender")!   //Gender
-//let birth = TestEnum(rawValue: "Birth Day")! //Birth
-
