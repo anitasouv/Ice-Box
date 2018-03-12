@@ -12,6 +12,7 @@
 		1A1E4E3A204A083B0024B5D3 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E4E39204A083B0024B5D3 /* InventoryViewController.swift */; };
 		1A1E4E3C204A09210024B5D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E4E3B204A09210024B5D3 /* Item.swift */; };
 		1A1E4E3E204B38800024B5D3 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E4E3D204B38800024B5D3 /* ItemTableViewCell.swift */; };
+		1A43CCE92056031B00EC98B0 /* TakeOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A43CCE82056031B00EC98B0 /* TakeOutViewController.swift */; };
 		1A5E02E2204B5C1D007F2824 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E02E1204B5C1D007F2824 /* LoginViewController.swift */; };
 		1A605B8B204B723300B8552B /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 1A605B8A204B723300B8552B /* Images */; };
 		1A605B8D204B75E600B8552B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A605B8C204B75E600B8552B /* DetailViewController.swift */; };
@@ -51,6 +52,7 @@
 		1A1E4E39204A083B0024B5D3 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		1A1E4E3B204A09210024B5D3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1A1E4E3D204B38800024B5D3 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		1A43CCE82056031B00EC98B0 /* TakeOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeOutViewController.swift; sourceTree = "<group>"; };
 		1A5E02E1204B5C1D007F2824 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1A605B8A204B723300B8552B /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		1A605B8C204B75E600B8552B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				1A1E4E39204A083B0024B5D3 /* InventoryViewController.swift */,
 				1A5E02E1204B5C1D007F2824 /* LoginViewController.swift */,
 				1A605B8C204B75E600B8552B /* DetailViewController.swift */,
+				1A43CCE82056031B00EC98B0 /* TakeOutViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 			files = (
 				1A605B8D204B75E600B8552B /* DetailViewController.swift in Sources */,
 				1A845F2F20453DF600355D49 /* MainViewController.swift in Sources */,
+				1A43CCE92056031B00EC98B0 /* TakeOutViewController.swift in Sources */,
 				1A845F012045321800355D49 /* ViewController.swift in Sources */,
 				1A1E4E3A204A083B0024B5D3 /* InventoryViewController.swift in Sources */,
 				1A1E4E38204A06130024B5D3 /* ProfileViewController.swift in Sources */,

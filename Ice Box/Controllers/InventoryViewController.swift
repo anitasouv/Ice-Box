@@ -26,7 +26,8 @@ class InventoryViewController: UIViewController, UITableViewDelegate, UITableVie
         
         cell.nameLbl.text = temp?.name.capitalized;
         cell.qtyLbl.text = "QTY: " + String((temp?.qty)!) + " " + (temp?.units.rawValue)!
-
+//        cell.accessoryType = UITableViewCellAccessoryType.checkmark
+        
         // image setting TODO: only png are shown, if add ".jpg" or ".jpeg" then it will be okay
         let path = Bundle.main.resourcePath! + "/Images/" + (temp?.img)! ;
         cell.imgView.image = UIImage(named: path)
@@ -57,14 +58,30 @@ class InventoryViewController: UIViewController, UITableViewDelegate, UITableVie
     @IBAction func unwindToInventory(segue: UIStoryboardSegue) {
     }
     
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "itemDetails", let destVC = segue.destination as? DetailViewController {
+//            destVC.item
+            let selectedIndexPath = inventroyTableView.indexPathForSelectedRow;
+            let item = self.inventory[Location(rawValue: (selectedIndexPath?.section)!)!]?[selectedIndexPath!.row];
+            let location = item?.locationOfItem.rawValue
+            let locationString = locationStringArray[location!].capitalized;
+            destVC.item = item
+            destVC.locationString = locationString;
+//                locationStringArray[(self.inventory[Location(rawValue: (selectedIndexPath?.section)!)!]?[selectedIndexPath!.row].locationOfItem.rawValue)!].capitalized;
+            
+            
+            // want the location string -> locationStringArray -> need the item location from the chosen
+            
+//            locationStringArray[selectedIndexPath!.section].capitalized;
+        }
     }
-    */
+
 
 }
