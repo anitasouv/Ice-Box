@@ -39,6 +39,7 @@ class DetailViewController: UIViewController {
             dateAddedLbl.text = "Date Added: " + dateFormatter.string(from: (item?.dateAdded)!);
             expDateLbl.text = "Exp Date: " + dateFormatter.string(from: (item?.expirationDate)!);
             
+            notesTextView.text = item?.notes;
 //            let dateFormatter = DateFormatter()
 //            dateFormatter.dateFormat = formatType.rawValue // Your New Date format as per requirement change it own
             
