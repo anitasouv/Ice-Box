@@ -9,6 +9,8 @@ target 'Ice Box' do
   pod 'Firebase'
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
   target 'Ice BoxTests' do
     inherit! :search_paths
